@@ -1,0 +1,58 @@
+{
+  "test_case_results": [
+    {
+      "test_case_id": "RJSCPR6PL3_TEST_1",
+      "evaluation_result": "CORRECT",
+      "title": "Page should consist of an HTML heading element with text content as \"SPEEDOMETER\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPR6PL3_TEST_2",
+      "evaluation_result": "CORRECT",
+      "title": "Page should consist of an HTML image element with alt attribute value as \"speedometer\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPR6PL3_TEST_3",
+      "evaluation_result": "CORRECT",
+      "title": "Page should initially consist of an HTML main heading element with text content as \"Speed is 0mph\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPR6PL3_TEST_4",
+      "evaluation_result": "CORRECT",
+      "title": "Page should consist of an HTML paragraph element with text content as \"Min Limit is 0mph, Max Limit is 200mph\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPR6PL3_TEST_5",
+      "evaluation_result": "CORRECT",
+      "title": "Page should consist of an HTML button element with text content as \"Accelerate\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPR6PL3_TEST_6",
+      "evaluation_result": "CORRECT",
+      "title": "Page should consist of an HTML button element with text content as \"Apply Brake\"",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPR6PL3_TEST_7",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"Accelerate\" button is clicked, then the speed should be increased by ten",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPR6PL3_TEST_8",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"Apply Brake\" button is clicked, then the speed should be decreased by ten",
+      "errorMessages": []
+    },
+    {
+      "test_case_id": "RJSCPR6PL3_TEST_9",
+      "evaluation_result": "CORRECT",
+      "title": "When the \"Apply Brake\" button is clicked, then the speed should not be decreased below zero",
+      "errorMessages": []
+    }
+  ]
+}

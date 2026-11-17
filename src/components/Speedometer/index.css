@@ -1,0 +1,95 @@
+.speedometer-app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #07080c;
+  min-height: 100vh;
+}
+
+.speedometer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 1140px;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 36px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 48px;
+  }
+}
+
+.speedometer-image {
+  width: 300px;
+  height: 125px;
+}
+
+@media screen and (min-width: 768px) {
+  .speedometer-image {
+    width: 700px;
+    height: 300px;
+  }
+}
+
+.speed-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .speed-text {
+    font-size: 32px;
+  }
+}
+
+.speed-limits {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-bottom: 48px;
+}
+
+@media screen and (min-width: 768px) {
+  .speed-limits {
+    font-size: 16px;
+  }
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin: 0 12px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+}
+
+.accelerate-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: none;
+}
+
+.apply-brake-button {
+  background-color: transparent;
+  color: #94a3b8;
+  border: 2px solid #94a3b8;
+}
